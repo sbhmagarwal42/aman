@@ -12,6 +12,7 @@ public class ChromeLaunch
 	{
 		System.setProperty("webdriver.chrome.driver", "E:\\Selenium\\software\\chromedriver.exe");
 		ChromeDriver driver=new ChromeDriver();
+		System.out.println("hi");
 		driver.get("http://www.google.com");
 		
 		driver.manage().window().maximize();
